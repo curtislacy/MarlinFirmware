@@ -1,6 +1,57 @@
 # Marlin 3D Printer Firmware for Tronxy X5S
 <img align="right" src="marlin-250.png" />
 
+## Cura Configuration
+
+### Printer Settings
+
+**X (Width)** = 330 mm
+**Y (Depth)** = 330 mm
+**Z (Height)** = 370 mm
+
+**Build plate shape** = Rectangular
+**Origin at center** = NO
+**Heatbed bed** = YES
+
+**Gcode flavor** = Marlin
+
+### Printhead Settings
+
+**X min** = 20 mm
+**Y min** = 10 mm
+**X max** = 10 mm
+**Y max** = 10 mm
+
+**Gantry height** = 99999999999 mm
+
+**Number of Extruder** = 1
+
+### Nozzle Settings
+
+**Nozzle sice** = 0.4 mm
+**Compatible material diam..** = 1.75 mm
+**Nozzle offset** X = 0 mm
+**Nozzle offeset** Y = 0 mm
+
+### Start Gcode
+```
+G28
+G1 X10 Y20 Z0.2 F3000
+G92 E0
+G1 X290 E20 F600
+G92 E0
+```
+
+### End Gcode
+```
+M104 S0
+M140 S0
+G92 E1
+G1 E-1 F300
+G28 X0 Y0
+M84
+```
+
 ## Marlin 1.1
 
 Marlin 1.1 represents an evolutionary leap over Marlin 1.0.2. It is the result of over two years of effort by several volunteers around the world who have paid meticulous and sometimes obsessive attention to every detail. For this release we focused on code quality, performance, stability, and overall user experience. Several new features have also been added, many of which require no extra hardware.
