@@ -31,7 +31,7 @@
 **Nozzle sice** = 0.4 mm
 **Compatible material diam..** = 1.75 mm
 **Nozzle offset** X = 0 mm
-**Nozzle offeset** Y = 0 mm
+**Nozzle offeset** Y = 0 mm 
 
 ### Start Gcode
 ```
