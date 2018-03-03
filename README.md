@@ -5,33 +5,33 @@
 
 ### Printer Settings
 
-**X (Width)** = 330 mm
-**Y (Depth)** = 330 mm
-**Z (Height)** = 370 mm
+**X (Width)** = 330 mm <br />
+**Y (Depth)** = 330 mm <br />
+**Z (Height)** = 370 mm <br />
 
-**Build plate shape** = Rectangular
-**Origin at center** = NO
-**Heatbed bed** = YES
+**Build plate shape** = Rectangular <br />
+**Origin at center** = NO <br />
+**Heatbed bed** = YES <br />
 
-**Gcode flavor** = Marlin
+**Gcode flavor** = Marlin <br />
 
 ### Printhead Settings
 
-**X min** = 20 mm
-**Y min** = 10 mm
-**X max** = 10 mm
-**Y max** = 10 mm
+**X min** = 20 mm <br />
+**Y min** = 10 mm <br />
+**X max** = 10 mm <br />
+**Y max** = 10 mm <br />
 
-**Gantry height** = 99999999999 mm
+**Gantry height** = 99999999999 mm <br />
 
-**Number of Extruder** = 1
+**Number of Extruder** = 1 <br />
 
 ### Nozzle Settings
 
-**Nozzle sice** = 0.4 mm
-**Compatible material diam..** = 1.75 mm
-**Nozzle offset** X = 0 mm
-**Nozzle offeset** Y = 0 mm 
+**Nozzle sice** = 0.4 mm <br />
+**Compatible material diam..** = 1.75 mm <br />
+**Nozzle offset** X = 0 mm <br />
+**Nozzle offeset** Y = 0 mm  <br />
 
 ### Start Gcode
 ```
