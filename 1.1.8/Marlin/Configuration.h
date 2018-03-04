@@ -561,7 +561,7 @@
 /**
  * Default Jerk (mm/s)
  * Override with M205 X Y Z E
- *
+ * 
  * "Jerk" specifies the minimum speed change that requires acceleration.
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
