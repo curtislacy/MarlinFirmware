@@ -715,9 +715,6 @@
 #define DEFAULT_XJERK                 14.0
 #define DEFAULT_YJERK                 14.0
 #define DEFAULT_ZJERK                  0.4
-
-#endif
-
 #define DEFAULT_EJERK    5.0  // May be used by Linear Advance
 
 /**
