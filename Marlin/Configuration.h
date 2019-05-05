@@ -390,7 +390,7 @@
 #define TEMP_SENSOR_4 0
 #define TEMP_SENSOR_BED 1
 #define TEMP_SENSOR_CHAMBER 0
-#define CHAMBER_HEATER_PIN -1  // On/off pin for enclosure heating system
+#define HEATER_CHAMBER_PIN -1  // On/off pin for enclosure heating system
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
 #define DUMMY_THERMISTOR_998_VALUE 25
@@ -868,7 +868,7 @@
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -3   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
-#define MIN_PROBE_EDGE 25
+#define MIN_PROBE_EDGE 50
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
